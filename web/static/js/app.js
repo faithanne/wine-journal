@@ -19,3 +19,5 @@ import "deps/phoenix_html/web/static/js/phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+const elmDiv = document.querySelector('#elm-main');
+const elmApp = Elm.WineJournal.embed(elmDiv);
